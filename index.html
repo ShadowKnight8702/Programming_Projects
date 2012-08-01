@@ -3,7 +3,13 @@
 <!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
 <body>
-  <p>Hello World!</p>
+  <canvas id="canvas" width = "400" height = "400" />
+  <script>
+    var canvas = document.getElementById("canvas");
+    var c = canvas.getContext("2d");
+    c.fillRect(0,0,50,50);
+    c.fill();
+  </script>
 </body>
 
 </html>

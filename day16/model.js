@@ -21,3 +21,11 @@ var model = (function(){
         }
     
 })();
+model.setEquation("y = sin(x+time)");
+function sin(x){
+  return Math.sin(x);
+}
+
+function tan(x){
+  return Math.tan(x);
+}
